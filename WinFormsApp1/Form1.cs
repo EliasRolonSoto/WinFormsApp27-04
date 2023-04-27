@@ -17,8 +17,12 @@ namespace WinFormsApp1
         private void CargarDatos()
         {
             var emails = (new EmailRepository()).Buscar(txtSearch.Text);
+
+
             listBox1.DataSource = emails;
             listBox1.ValueMember = "Asunto";
+
+
 
 
         }
@@ -33,9 +37,6 @@ namespace WinFormsApp1
             CargarDatos();
         }
 
-        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+        
     }
 }

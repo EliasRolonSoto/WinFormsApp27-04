@@ -69,7 +69,6 @@
             listView1.Size = new Size(149, 259);
             listView1.TabIndex = 3;
             listView1.UseCompatibleStateImageBehavior = false;
-            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
             // 
             // Form1
             // 
